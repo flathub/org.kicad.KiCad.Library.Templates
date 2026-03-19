@@ -41,6 +41,6 @@ modules:
           timestamp-query: '[.[] | select(.name|test("^[\\d\\.]+$"; ""))] | first
             | .created_at'
           versions:
-            <: 9.99.0
+            <: 10.99.0
       - type: file
         path: org.kicad.KiCad.Library.Templates.metainfo.xml
